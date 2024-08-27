@@ -8,7 +8,6 @@ var isValid = function (s) {
   };
 
   for (let char of s) {
-    console.log("🚀 ~ isValid ~ char:", char);
     if (char in bracketMap) {
       stack.push(char);
     } else {
